@@ -24,7 +24,8 @@ public class Main {
         printMenu();
         try {
             switch (getStrFromConsole("номер задания: ").nextInt()) {
-
+                case 0:
+                    break;
                 case 1:
                     task1(getStrFromConsole("число: "));
                     menu();
